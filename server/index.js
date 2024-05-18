@@ -14,7 +14,7 @@ var io = require("socket.io")(server);
 app.use(express.json());
 
 const DB =
-  "mongodb+srv://tushar:123321@cluster0.tbp6jcw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "your_db_url";
 
 io.on("connection", (socket) => {
   console.log("connected!");
